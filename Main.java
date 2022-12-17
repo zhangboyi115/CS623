@@ -43,7 +43,6 @@ public class Main {
 
             System.out.println("\nDeleting p1 from Product table");
             statement.executeUpdate("DELETE FROM Product WHERE prodid = 'p1'");
-            System.out.println("\nDeleted p1 from Product table and Stock table");
 
             
 
